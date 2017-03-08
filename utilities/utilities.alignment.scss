@@ -1,0 +1,52 @@
+@import "../mixins/utilities.alignment";
+
+.u-centered {
+  @include centered;
+}
+
+.u-center-block {
+  @include center-block;
+}
+
+.u-center-block__content,
+.u-absolute-center {
+  @include center-block__content;
+}
+
+.u-center-block__content--vertical {
+  @include center-block__content--vertical;
+}
+
+.u-center-block__content--horizontal {
+  @include center-block__content--horizontal;
+}
+
+// NEW
+.u-relative {
+	position: relative;
+}
+
+.u-fixed__full-screen {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+// Alignment for flex box
+.u-align-flex,
+.u-align-flex__content {
+	display: flex;
+}
+.u-align-flex.u-align-flex__center {
+	align-items: center;
+	justify-content: center;
+}
+.u-align-flex.u-align-flex__horizontal {
+	justify-content: center;
+}
+.u-align-flex.u-align-flex__vertical {
+	align-items: center;
+}
+// NEW END

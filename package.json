@@ -1,0 +1,11 @@
+{
+  "name": "vuelements",
+  "version": "0.0.1",
+  "description": "Vue-based design system for scalable web applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Webber Wang",
+  "license": "ISC"
+}
